@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [BambooWEbsite]">
+  <test thread-count="5" name="Cross_Chrome(failed)">
+    <parameter name="browsers" value="chrome"/>
+    <classes>
+      <class name="CrossBrowser.Cross">
+        <methods>
+          <include name="hitURL"/>
+          <include name="setup" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- CrossBrowser.Cross -->
+    </classes>
+  </test> <!-- Cross_Chrome(failed) -->
+  <test thread-count="5" name="Cross_Edge(failed)">
+    <parameter name="browsers" value="edge"/>
+    <classes>
+      <class name="CrossBrowser.Cross">
+        <methods>
+          <include name="hitURL"/>
+          <include name="setup" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- CrossBrowser.Cross -->
+    </classes>
+  </test> <!-- Cross_Edge(failed) -->
+</suite> <!-- Failed suite [BambooWEbsite] -->

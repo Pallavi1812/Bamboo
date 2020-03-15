@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="21024" started-at="2020-03-15T16:34:25Z" finished-at="2020-03-15T16:34:46Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="21024" started-at="2020-03-15T16:34:25Z" finished-at="2020-03-15T16:34:46Z">
+      <class name="CrossBrowser.ContactUs">
+        <test-method status="PASS" signature="contactUS()[pri:1, instance:CrossBrowser.ContactUs@17579e0f]" name="contactUS" duration-ms="19664" started-at="2020-03-15T16:34:25Z" description="This test case Clicking on Contact us and matching the URL" finished-at="2020-03-15T16:34:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contactUS -->
+        <test-method status="PASS" signature="userData()[pri:2, instance:CrossBrowser.ContactUs@17579e0f]" name="userData" duration-ms="310" started-at="2020-03-15T16:34:45Z" description="This test case Filling the data of users" finished-at="2020-03-15T16:34:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userData -->
+        <test-method status="PASS" signature="closeBrowser()[pri:3, instance:CrossBrowser.ContactUs@17579e0f]" name="closeBrowser" duration-ms="1007" started-at="2020-03-15T16:34:45Z" description="This test case closing the browser" finished-at="2020-03-15T16:34:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- CrossBrowser.ContactUs -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

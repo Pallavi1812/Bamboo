@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="9KM">
+
+  <test name="CrossBrowsers_Firefox">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="Signup.User_Signup"></class>
+    </classes>
+ </test>
+ 
+ <test name="CrossBrowsers_Chrome">
+  <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="Signup.User_Signup"></class>
+    </classes>
+ </test>
+ 
+ <test name="CrossBrowsers_Edge">
+  <parameter name="browser" value="edge"/>
+    <classes>
+      <class name="Signup.User_Signup"></class>
+    </classes>
+ </test>
+ 
+ 
+</suite>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="BambooWEbsite">
+
+  <test name="Cross_Firefox">
+    <parameter name="browsers" value="firefox"/>
+    <classes>
+      <class name="CrossBrowser.Cross"></class>
+    </classes>
+ </test>
+ 
+ <test name="Cross_Chrome">
+  <parameter name="browsers" value="chrome"/>
+    <classes>
+      <class name="CrossBrowser.Cross"></class>
+    </classes>
+ </test>
+ 
+ <test name="Cross_Edge">
+  <parameter name="browsers" value="edge"/>
+    <classes>
+      <class name="CrossBrowser.Cross"></class>
+    </classes>
+ </test>
+ </suite>
